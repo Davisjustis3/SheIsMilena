@@ -1,0 +1,93 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ font-family: "Poppins", sans-serif;
+ background-color: #bda5ac;
+ 
+}
+/* Navbar1 */
+.logo-container {
+  width: 20vw;
+}
+#logo {
+  width: 150px;
+}
+#navbar1 {
+  background: linear-gradient(to top left, #bda5ac 50%, #EEEEEE);
+  display: flex;
+  align-items: center; 
+  padding: 5px 30px;
+}
+.list-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 80vw;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+}
+.nav-list > li > a {
+  text-decoration: none;
+  color: #EEEEEE;
+  transition: all 300ms ease-in-out;
+}
+.nav-list > li > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+#lets-talk-btn {
+  margin-left: 2vw;
+  padding: 10px 10px;
+  border: none;
+  background-color: #564147;
+  border-radius: 10px;
+  color: #EEEEEE;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: .8rem;
+}
+/* Navbar 2 */
+#navbar2 {
+  display: none;
+  margin: 10px 60px;
+}
+#burger-container {
+  display: flex;
+  align-items: center;
+}
+#burger-container > div {
+  width: 50%;
+}
+.fa-bars {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #EEEEEE;
+}
+#nav-list2 {
+  display: none;
+  gap: 10px;
+  margin-top: 30px;
+  list-style: none;
+}
+#nav-list2 > li > a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+main {
+  background-image: url(assets/anotherxlife-cAnUiVqBBUE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 300px;
+}
+
+
