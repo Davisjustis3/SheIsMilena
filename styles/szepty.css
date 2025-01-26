@@ -1,0 +1,67 @@
+#szepty {
+  background-image: url(/assets/actionvance-cf5L1mp6Jpk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+}
+#szepty-book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#szepty-book > h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px;
+  color: #5F4254;
+}
+#book-container {
+  width: 50vw;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #b1838e;
+  color: #EEEEEE;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#text-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+}
+#text-container > a {
+  text-decoration: none;
+  padding: 10px 10px;
+  border: none;
+  background-color: #564147;
+  border: 0px solid #EEEEEE;
+  border-radius: 10px;
+  color: #EEEEEE;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: .8rem;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+#text-container > h4 {
+  line-height: 30px;
+}
+#text-container > p {
+  line-height: 30px;
+}
+#text-container > a:hover {
+  background: rgb(106, 85, 91);
+  border: 1px solid #EEEEEE;
+}
+#text-container > * {
+  margin-bottom: 20px;
+}
+#book-cover {
+  width: 20vw;
+  min-width: 150px;
+  max-width: 200px;
+}

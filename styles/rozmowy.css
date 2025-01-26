@@ -1,0 +1,28 @@
+#rozmowy {
+  background-image: url(/assets/jo-anaya-JAxUx0Cxk78-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+}
+#rozmowy-video {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#rozmowy-video > h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px;
+  color: #5F4254;
+}
+#rozmowy-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 70%;
+  background-color: #b1838e;
+}
+

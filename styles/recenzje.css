@@ -1,0 +1,70 @@
+#recenzje {
+  background-image: url(/assets/lara-john-z6dcvP5v6gU-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+}
+#recenzje-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#recenzje-list > h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px;
+  color: #5F4254;
+}
+#review-container {
+  width: 700px;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  background-color: #b1838e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #EEEEEE;
+  width: 100%;
+}
+.review-image {
+  width: 200px;
+  margin-right: 50px;
+}
+.review-card > div > p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.review-card > div > a {
+  width: 200px;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: none;
+  background-color: #564147;
+  border: 0px solid #EEEEEE;
+  border-radius: 10px;
+  color: #EEEEEE;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: .8rem;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+.review-card > div > a:hover {
+  background: rgb(106, 85, 91);
+  border: 1px solid #EEEEEE;
+}
+.line {
+  height: 1px;
+  width: 90%;
+  background-color: #EEEEEE;
+  margin: 0 0 10px 0;
+}

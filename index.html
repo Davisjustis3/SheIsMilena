@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>She is Milena</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
   <!-- Navbar One -->
   <nav id="navbar1">
     <div class="logo-container">
-      <img id="logo" src="assets/miles-logo.webp" alt="Milena logo">
+      <a href="index.html"><img id="logo" src="assets/miles-logo.webp" alt="Milena logo"></a>
     </div>
     <div class="list-container">
       <ul class="nav-list">
         <li><a href="#poems">Wiersze</a></li>
-        <li><a href="#book">Szepty Przeszłości</a></li>
-        <li><a href="#reviews">Recenzje</a></li>
-        <li><a href="#reviews">Rozmowy</a></li>
-        <li><a href="#contact">Kontakt</a></li>
+        <li><a href="szepty.html">Szepty <br> Przeszłości</a></li>
+        <li><a href="#recenzje.html">Recenzje</a></li>
+        <li><a href="rozmowy.html">Rozmowy</a></li>
         <li><a href="#about">O mnie</a></li>
       </ul>
       <a id="lets-talk-btn" href="#contact">Porozmawiajmy</a>
@@ -40,13 +39,14 @@
       <li><a href="#about">About</a></li>
       </ul>
   </nav>
-  <main>
+  <main id="home">
   </main>
-  <section>
+  <section id="poems">
     <h2>Wiersze</h2>
-
+    <div id="data">
+    </div>
   </section>
-  <script src="server.js"></script>
-  <script src="script.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/server.js"></script>
 </body>
 </html>
