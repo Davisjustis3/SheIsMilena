@@ -125,6 +125,7 @@ body {
 }
 .poem-card {
   color: #EEEEEE;
+  border: 1px solid #EEEEEE;
   border-radius: 10px;
   background-color: #b1838e;
   width: 400px;
