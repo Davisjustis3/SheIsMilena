@@ -148,5 +148,24 @@ hr {
 .date-text {
   color: #F78FB3;
 }
+p > a {
+  text-decoration: none;
+  color: #b1838e;
+}
+.fa-linkedin,
+.fa-instagram,
+.fa-envelope {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 100px;
+  text-align: center;
+  background-color: #564147;
+  line-height: 30px;
+  color: #EEEEEE;
+}
 
 

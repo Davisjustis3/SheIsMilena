@@ -1,22 +1,22 @@
-#rozmowy {
-  background-image: url(/assets/jo-anaya-JAxUx0Cxk78-unsplash.jpg);
+#o-mnie {
+  background-image: url(/assets/negipho-u59gG_FIGIo-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 300px 0;
 }
-#rozmowy-video {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-#rozmowy-video > h2 {
+#o-mnie-page > h2 {
   font-size: 3rem;
   text-align: center;
   padding: 30px;
   color: #5F4254;
 }
-#rozmowy-container {
+#o-mnie-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#o-mnie-container {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -26,16 +26,16 @@
   width: 70%;
   background-color: #b1838e;
 }
-#rozmowy-container > a > img {
-  width: 600px;
-} 
-#rozmowy-container > * {
-  margin-bottom: 20px;
+#o-mnie-container > img {
+  width: 300px;
+  border-radius: 50%;
 }
-#rozmowy-container > p {
-  line-height: 30px;
+#o-mnie-container > p {
   color: #EEEEEE;
+  text-align: center;
+  line-height: 30px;
 }
-
-
-
+#ig-tag {
+  color: #F78FB3;
+  text-decoration: none;
+}
