@@ -26,6 +26,12 @@
   width: 70%;
   background-color: #b1838e;
 }
+#o-mnie-container > h4 {
+  color: #5F4254;
+  margin: 20px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
 #o-mnie-container > img {
   width: 300px;
   border-radius: 50%;

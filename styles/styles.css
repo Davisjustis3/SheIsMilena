@@ -158,7 +158,7 @@ p > a {
 .fa-instagram,
 .fa-envelope {
   font-size: 1.5rem;
-  margin-right: 10px;
+  margin: 0 5px;
 }
 
 footer {
