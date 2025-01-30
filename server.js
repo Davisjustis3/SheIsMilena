@@ -1,13 +1,13 @@
 import express from 'express';
 import mysql from 'mysql2';
 import cors from 'cors';
+import dotenv from 'dotenv';
 
 const app = express();
-const port = 3000;
-
+const port = 3001;
+dotenv.config();
 // Enable CORS
 app.use(cors());
-
 // Create a connection to the database
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
