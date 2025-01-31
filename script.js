@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/data')
+fetch('http://localhost:3001/data')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -8,7 +8,7 @@ fetch('http://localhost:3000/data')
     .then(data => {
         const dataContainer = document.getElementById('data');
       data.forEach(poem => {
-          // const formattedText = poem.poemText.replace(/{2,}/g, '<br>');
+      
           const poemCard = `
           <div class="poem-card">
             <h1 class="poem-name">${poem.poemName}</h1>

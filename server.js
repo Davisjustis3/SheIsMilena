@@ -4,11 +4,11 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 
 const app = express();
-const port = 3001;
-dotenv.config();
-// Enable CORS
+const port = process.env.PORT || 3001;
+dotenv.config(); 
+
 app.use(cors());
-// Create a connection to the database
+
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -16,7 +16,7 @@ const db = mysql.createConnection({
     database: process.env.DB_NAME
 });
 
-// Connect to the database
+
 db.connect(err => {
     if (err) {
         console.error('Database connection failed:', err);
@@ -25,7 +25,7 @@ db.connect(err => {
     console.log('Connected to database');
 });
 
-// Define a route to get data
+
 app.get('/data', (req, res) => {
     db.query('SELECT * FROM Poems', (err, results) => {
         if (err) {
@@ -37,7 +37,7 @@ app.get('/data', (req, res) => {
     });
 });
 
-// Start the server
+
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
