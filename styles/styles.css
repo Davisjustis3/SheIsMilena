@@ -18,7 +18,7 @@ body {
 #logo {
   width: 150px;
 }
-#navbar1 {
+#navbar1{
   background: linear-gradient(to top left, #cdacb4 50%, #EEEEEE);
   display: flex;
   align-items: center; 
@@ -44,7 +44,7 @@ body {
 }
 .nav-list > li {
   border: 0px solid #5F4254;
-  border-radius: 50%;
+  border-radius: 10px;
   padding: 5px;
   transition: all 100ms ease-in-out;
 }
@@ -77,30 +77,41 @@ body {
 /* Navbar 2 */
 #navbar2 {
   display: none;
-  margin: 10px 60px;
+  padding: 5px 30px;
 }
 #burger-container {
   display: flex;
   align-items: center;
 }
-#burger-container > div {
+.logo-container,
+.burger-menu
+ {
   width: 50%;
-}
+} 
 .fa-bars {
-  cursor: pointer;
+  color: #564147;
   font-size: 2rem;
-  color: #EEEEEE;
+}
+.burger-menu {
+  text-align: end;
+}
+#drop-down {
+  width: 100%;
 }
 #nav-list2 {
   display: none;
-  gap: 10px;
-  margin-top: 30px;
   list-style: none;
 }
+#nav-list2 > hr {
+  border: 1px solid #5F4254;
+}
+
 #nav-list2 > li > a {
   text-decoration: none;
-  color: #EEEEEE;
+  color: #5F4254;
+  cursor: pointer;
 }
+/* Home */
 #home {
   background-image: url(/assets/anotherxlife-cAnUiVqBBUE-unsplash.jpg);
   background-position: center;

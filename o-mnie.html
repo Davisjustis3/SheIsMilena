@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/o-mnie.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/media-queries.css">
 </head>
 <body>
   <!-- Navbar One -->
@@ -26,21 +27,27 @@
       <a id="lets-talk-btn" href="#contact">Porozmawiajmy</a>
     </div>
   </nav>
-  <!-- Navbar2 -->
+  <!-- Navbar Two-->
   <nav id="navbar2">
     <div id="burger-container">
       <div class="logo-container"><img id="logo" src="assets/miles-logo.webp" alt=""></div>
-      <div class="list-container"><i class="fa-solid fa-bars"></i></div>
+      <div class="burger-menu"><i class="fa-solid fa-bars"></i></div>
     </div>
-    <ul class="nav-list2">
-      <li><a href="#poems">Poems</a></li>
-      <li><a href="#book">Whispers of the Past</a></li>
-      <li><a href="#reviews">Reviews</a></li>
-      <li><a href="#reviews">Conversations</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-      </ul>
+    <div id="drop-down">
+        <ul id="nav-list2">
+            <li><a href="index.html">Wiersze</a></li>
+            <hr>
+            <li><a href="szepty.html">Szepty Przeszłości</a></li>
+            <hr>
+            <li><a href="recenzje.html">Recenzje</a></li>
+            <hr>
+            <li><a href="rozmowy.html">Rozmowy</a></li>
+            <hr>
+            <li><a href="#o-mnie">O mnie</a></li>
+        </ul>
+    </div>
   </nav>
+  <!-- O-Mnie -->
   <main id="o-mnie">
   </main>
   <section id="o-mnie-page"> 
@@ -72,5 +79,6 @@
         <p>&copy; 2025 Justis Davis. All rights reserved.</p>
       </div>
 </footer>
+<script src="scripts/drop-down.js"></script>
 </body>
 </html>

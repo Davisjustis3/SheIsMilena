@@ -1,0 +1,8 @@
+@media screen and (max-width: 650px) {
+#navbar1 {
+  display: none;
+}
+#navbar2 {
+  display: block;
+}
+}
